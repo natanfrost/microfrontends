@@ -31,3 +31,4 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           SOURCE_DIR: 'container'
           DEST_DIR: 'container/latest'
+          AWS_DEFAULT_REGION: 'us-east-1'
