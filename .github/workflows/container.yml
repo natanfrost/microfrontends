@@ -4,11 +4,11 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - 'landing/container/**'
+      - 'container/**'
 
 defaults: 
   run: 
-    working-directory: landing/container
+    working-directory: container
 
 jobs: 
   build:
